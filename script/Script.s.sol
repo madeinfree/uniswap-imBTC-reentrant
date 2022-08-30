@@ -15,7 +15,7 @@ contract AttackerScript is Script {
     }
 
     function run() public {
-      vm.deal(address(attacker), 3600 ether);
+      vm.deal(address(attacker), 21000 ether);
       attacker.run();
     }
 }
